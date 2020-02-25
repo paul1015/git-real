@@ -1,0 +1,132 @@
+git reset --soft HEAD^ -> undo last commit   (HEAD^^ commit)
+git commit --amend -m "New Message" ->¡@modify last commit
+git reset --hard HEAD^ -> Undo last commit and all change
+
+remmote to repository
+git remote add <name> <address>
+git remote rm <name>
+git push -u <name> <branch>
+
+branch 
+checkout...
+merger in the master
+fastforward 
+
+git branch -d cat -> check how the merge works
+
+git merge :)
+
+What happen if someone want to commit but remote repository have already been change?
+git push -> rejected
+
+git pull
+git fetch 
+git merge origin/master -> merger at local
+
+git push
+merge our data with previous mege
+
+ 
+Success!
+
+two different file in same repository
+merge conflict  :)
+we will have two version
+
+git commit -a
+
+
+local branch remote branch
+git checkout -b shopping_cart
+git push -b shopping_cart
+
+git add cart.rb
+commit...
+
+git push
+
+have new branch
+
+git branch -r
+
+git checkout shopping_cart
+
+git remote show origin
+
+git push origin :shooping_cart  -> Delete remote branch
+git branch -d shooping_cart
+git branch -D shooping_cart -> really delete:)
+
+git remote prune origin -> clean the stale branch
+
+Tagging ->¡@for version
+
+git tag
+
+git checkout 
+
+git push --tags
+
+merge not be great -> polute
+
+git fetch : only pull but not merge , pull does merge
+git rebase
+1.Move all chageg to master whitch are not in origin/master to temporary area
+2.Run all origin/master commits.
+3.Run all commit in the temporary area, one at time
+-> didn't merge only run??? no merge commit 
+
+git checkout admin
+git rebase master
+
+git checkout master
+git merge admin
+
+still have conflict
+
+in rebase is in a temporary.
+
+don't have log:)
+
+rebase is a technology
+
+git log
+
+git config --global color.ui true
+
+git log --pretty.....
+git log --online -p/--stat/--graph
+Date....
+git diff
+git diff HEAD ^^... :)
+
+
+git diff name/name branch/branch
+
+git blame -> all change 
+experiments/ exclude the folder to reposoritory
+
+git ignore.
+
+logs/*.log
+ignore all log
+
+git rm ...
+stop traccking the file
+
+config
+
+editor
+git config --list
+
+outformat
+simply the command
+
+continue to learn the git .
+
+git hub can have philosophy ....
+https://git-animals.tumblr.com/ is funny
+
+
+
+
