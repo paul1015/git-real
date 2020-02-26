@@ -1,0 +1,12 @@
+{
+    "python.pythonPath": "C:\\Users\\wmlab\\Anaconda3\\python.exe",
+    "python.linting.enabled": true,
+    "python.jediEnabled": true, //Solve unresloved import、Peek、Goto definition(other module) 
+    "python.formatting.provider": "autopep8",
+    "python.linting.pylintArgs":[
+        ""
+    ],
+    "python.condaPath": "C:\\Users\\wmlab\\Anaconda3\\python.exe",
+    "python.linting.pylintEnabled": true, //<== Commented this line and vs code to restart the window.
+    "path-intellisense.extensionOnImport": true,
+}

@@ -1,0 +1,15 @@
+{
+    //https://code.visualstudio.com/docs/python/python-tutorial
+    //和debug mode(F5)有關
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "cwd":"" //相對路徑Setting，沒這行ctrl-shitf-B、F5皆抓不到
+        }
+    ]
+}
